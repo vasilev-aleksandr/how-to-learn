@@ -1,13 +1,11 @@
 .cards__item {
     width: 240px;
     margin-right: 100px;
-    margin-bottom: 60px;
+    margin-top: 60px;
+    list-style-type: none;
   }
   
-  .cards__item:nth-child(3) {
+  .cards__item:nth-child(3n) {
     margin-right: 0;
   }
   
-  .cards__item:nth-child(n+4) {
-    margin-bottom: 0;
-  }
